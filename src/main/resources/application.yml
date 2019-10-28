@@ -3,7 +3,8 @@ spring:
     console:
       enabled: true
       path: /h2-console
-
+  profiles:
+    active: local
 # local 환경
 ---
 spring:
